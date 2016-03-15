@@ -1,0 +1,140 @@
+body{
+    position: relative;
+    font-family: Arial;
+    height: 100%;
+    width: 99%;
+}
+#main-wrapper{
+    position: relative;
+    border: none;
+    background: peachpuff;
+    color: rgba(38, 49, 55, 0.92);
+    margin: 0 auto;
+    min-height: 200px;
+    max-height: 500px;
+    width: 700px;
+    padding-bottom: 60px;
+    padding-top: 2px;
+    margin-top: 40px;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+input[type=button] {
+    background: #7e7980;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Sans-serif;
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+#start-button{
+
+    background-color: #75da82;
+}
+#reset-button{
+    background-color: #da786b;
+}
+
+#next-button{
+    background-color: #6b96da;
+}
+
+.center-text{
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    margin: 5% 2% 5% 2%;
+}
+#title-text{
+    display: inline-block;
+}
+
+#data-input-wrapper{
+    text-align: center;
+
+}
+
+#input-numbers-wrapper
+{
+    display: none;
+    position: relative;
+    margin: 5% 10% 5% 10%;
+    height: 90px;
+    text-align: center;
+}
+
+#input-numbers{
+    margin: 0% 0%;
+    height: 70px;
+}
+
+.input-textbox{
+    width: 45px;
+    margin: 2px;
+}
+
+#input-parameters{
+    margin: 5% 30% 5% 30%;
+    height: 20px;
+    text-align: center;
+}
+.input-radio{
+    margin-left: 20px;
+}
+
+#start-button{
+    margin: 40px 0% 0% 0%;
+}
+
+#main-visualization-wrapper{
+    position: relative;
+    height: 350px;
+    margin: 20px 10px 10px 10px;
+    display: none;
+}
+#visualization-wrapper{
+    background-color: rgba(126, 121, 128, 0.62);
+    margin: 20px 10px 0px 10px;
+    height: 300px;
+    position: relative;
+}
+
+#control-buttons{
+    text-align: center;
+    margin: 40px 10px 10px 10px;
+}
+
+#elements-container-outer{
+    display:table-cell;
+    position: absolute;
+    height: 270px;
+    bottom: 5px;
+    width: 620px;
+    left: 20px;
+    right: 20px;
+}
+#elements-container-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.sort-element{
+    vertical-align: bottom;
+    display: inline-block;
+    background-color: rgba(40, 23, 132, 0.64);
+    margin: 0px 3px;
+    text-align: center;
+}
+
+.amount-signature{
+    color: white;
+}

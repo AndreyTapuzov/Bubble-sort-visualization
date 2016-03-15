@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/visualization-page.js"></script>
+    <script src="js/parameters-input.js"></script>
+    <script src="js/sort-engine.js"></script>
+
+    <title>Bubble sort</title>
+</head>
+<body>
+
+<div id="main-wrapper">
+    <div class="center-text">
+        <span id="title-text">Bubble sort Visualization</span>
+    </div>
+
+    <!-- Input parameters block-->
+    <div id="data-input-wrapper">
+        <span id="note-text">Please choose the number of elements to sort</span>
+
+        <div id="input-parameters">
+            <input type="radio" class="input-radio" id="radio1" name="items-number" value="5">
+            <label for="radio1" class="css-label radGroup1">5</label>
+
+            <input type="radio" class="input-radio" id="radio2" name="items-number" value="10">
+            <label for="radio2" class="css-label radGroup1">10</label>
+
+            <input type="radio" class="input-radio" id="radio3" name="items-number" value="20">
+            <label for="radio3" class="css-label radGroup1">20</label>
+        </div>
+
+        <div id="input-numbers-wrapper">
+            <div id="input-numbers">
+            </div>
+            <input type="button" value="Randomize" id="random-button"><br>
+            <input type="button" value="Start" id="start-button">
+        </div>
+
+    </div>
+
+    <!-- Visualisation block -->
+    <div id="main-visualization-wrapper">
+        <div id="visualization-wrapper">
+            <div id="elements-container-outer">
+                <div id="elements-container-inner">
+                </div>
+            </div>
+
+        </div>
+        <div id="control-buttons">
+            <input type="button" value="Reset" id="reset-button">
+            <input type="button" value="Next" id="next-button">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
